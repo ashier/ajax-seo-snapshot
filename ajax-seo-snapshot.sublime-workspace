@@ -1,0 +1,907 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wri",
+				"writeFile"
+			],
+			[
+				"rec",
+				"reconnectAttempts"
+			],
+			[
+				"con",
+				"conf"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"c",
+				"click"
+			],
+			[
+				"scro",
+				"scrollY"
+			],
+			[
+				"scr",
+				"scrollY"
+			],
+			[
+				"db",
+				"db.close"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"e",
+				"endpoint"
+			],
+			[
+				"ap",
+				"ap-southeast-1"
+			],
+			[
+				"buc",
+				"bucketName"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"p",
+				"p	<p>"
+			],
+			[
+				"Commu",
+				"Community"
+			],
+			[
+				"MAR",
+				"margin-top"
+			],
+			[
+				"he",
+				"height	Attr"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"$sta",
+				"$stateParams"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"boo",
+				"bottom"
+			],
+			[
+				"header",
+				"header	Tag"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"true",
+				"trueproperty"
+			],
+			[
+				"app",
+				"ApplicationCtrl"
+			],
+			[
+				"inter",
+				"intercept"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"set",
+				"setPage"
+			],
+			[
+				"state",
+				"stateKey"
+			],
+			[
+				"wor",
+				"workspace"
+			],
+			[
+				"mon",
+				"mongodb_restart"
+			],
+			[
+				"mono",
+				"mongodb_start"
+			],
+			[
+				"mongo",
+				"mongodb_stop"
+			],
+			[
+				"ngin",
+				"nginx_restart"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tasks/angular_seo_snapshot.js",
+			"settings":
+			{
+				"buffer_size": 5929,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"selected_items":
+		[
+			[
+				"ngn",
+				"Set Syntax: nginx"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"nginx",
+				"Set Syntax: nginx"
+			],
+			[
+				"ngin",
+				"Set Syntax: nginx"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"syn",
+				"Set Syntax: nginx"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pret",
+				"HTMLPrettify: Set Keyboard Shortcuts"
+			],
+			[
+				"Les",
+				"Set Syntax: LESS"
+			],
+			[
+				"fomr",
+				"Format: Javascript"
+			],
+			[
+				"fom",
+				"Format: Javascript"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"fo",
+				"Format Code"
+			],
+			[
+				"f",
+				"Format Code"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pinsta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ashier/workspace/angular-seo-snapshot/.gitignore",
+		"/Users/ashier/workspace/trueproperty/website/sitemap.xml",
+		"/Users/ashier/workspace/trueproperty/website/.phantomjs-runner.js",
+		"/Users/ashier/workspace/trueproperty/website/ms.sh",
+		"/Users/ashier/workspace/trueproperty/website/snapshots/bgc.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/controllers/CommunityCtrl.js",
+		"/Users/ashier/workspace/trueproperty/api/trueproperty.local",
+		"/Users/ashier/workspace/trueproperty/website/snapshots/home.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/_modules/pushstate-mode.js",
+		"/Users/ashier/workspace/trueproperty/api/app/config/db.js",
+		"/Users/ashier/workspace/trueproperty/website/gruntfile.js",
+		"/Users/ashier/workspace/trueproperty/website/index.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/common/navbar.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/Navbar.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/home/controllers/HomeCtrl.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/controllers/NavBarCtrl.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/building/controllers/BuildingCtrl.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/property/controllers/PropertyCtrl.js",
+		"/Users/ashier/Desktop/sourcetree.license",
+		"/Users/ashier/workspace/trueproperty/api/app/config/config.js",
+		"/Users/ashier/workspace/trueproperty/website/less/community.less",
+		"/Users/ashier/workspace/trueproperty/website/partials/account/account.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/experts-lifestyle.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/home.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/community-nav.html",
+		"/Users/ashier/workspace/trueproperty/website/js/vendors/jquery.nested.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/_init_.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/utils/PageEvents.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/services/FooterService.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/404.html",
+		"/Users/ashier/workspace/trueproperty/api/node_modules/moment/lang/gl.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/overview-tab.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/home/controllers/_init_.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/properties-tab.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/home-templates/popular-communities.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/home-templates/community-carousel.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/services/FacebookService.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/header.html",
+		"/etc/hosts",
+		"/Users/ashier/workspace/trueproperty/website/less/global.less",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/photography.html",
+		"/Users/ashier/workspace/trueproperty/api/app/config/auth.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/ScrollTo.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/account/controllers/AccountCtrl.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/directives/_init_.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/directives/Photography.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/globals/g.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/home-templates/how-it-works.html",
+		"/Users/ashier/workspace/trueproperty/website/less/home.less",
+		"/Users/ashier/workspace/trueproperty/api/app/controllers/account/AccountController.js",
+		"/Users/ashier/workspace/trueproperty/api/app/controllers/main/BuildingController.js",
+		"/Users/ashier/workspace/trueproperty/api/app/controllers/main/PropertyController.js",
+		"/Users/ashier/workspace/trueproperty/api/app/utils/errors.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/common/footer.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/home/directives/PopularCommunities.js",
+		"/Users/ashier/workspace/trueproperty/website/less/lesshat.less",
+		"/Users/ashier/workspace/trueproperty/website/less/variables.less",
+		"/Users/ashier/workspace/trueproperty/website/js/app/home/directives/CommunityCarousel.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/home/directives/_init_.js",
+		"/Users/ashier/workspace/trueproperty/website/less/angular-carousel.less",
+		"/Users/ashier/workspace/trueproperty/website/less/tp.less",
+		"/Users/ashier/workspace/trueproperty/website/less/fonts.less",
+		"/Users/ashier/workspace/trueproperty/website/less/property.less",
+		"/Users/ashier/workspace/trueproperty/api/app/controllers/main/CommunityController.js",
+		"/Users/ashier/workspace/trueproperty/website/less/_bckup/home.less",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/know-community.html",
+		"/Users/ashier/workspace/trueproperty/website/data/user.js",
+		"/Users/ashier/workspace/trueproperty/dist/partials/account/account.html",
+		"/Users/ashier/workspace/trueproperty/website/js/main.js",
+		"/Users/ashier/workspace/trueproperty/website/js/config.js",
+		"/Users/ashier/Desktop/SampleFacebookPHP.template",
+		"/Users/ashier/workspace/trueproperty/dist/partials/site/home-templates/community-carousel.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/location-tab.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/ScrollSpy.js",
+		"/Users/ashier/workspace/trueproperty/dist/partials/common/footer.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/home/directives/HowItWorks.js",
+		"/Users/ashier/workspace/trueproperty/api/app/routes/AccountRoutes.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/home/controllers/CommunityCarouselCtrl.js",
+		"/Users/ashier/Desktop/bootstrap-3.0.2/examples/carousel/index.html",
+		"/Users/ashier/Desktop/bootstrap-3.0.2/examples/carousel/carousel.css",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/common-templates/getting-around.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/directives/KnowCommunity.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/PreventDefault.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/_init_.js",
+		"/Users/ashier/workspace/trueproperty/website/js/vendors/bs-scrollspy.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/home-templates/featured-properties.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/market-insight-tab.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/controllers/CommunityPropertiesCtrl.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/directives/Community.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/directives/CommunityNav.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/community-templates/lifestyle-tab.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/BackImage.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/BackgroundImage.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/home-templates/jumbotron.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/_routes.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/home/controllers/FeaturedPropertyCtrl.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/home-templates/featured-communities.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/building-templates/building-description.html",
+		"/Users/ashier/workspace/trueproperty/api/app/routes/BrokerRoutes.js",
+		"/Users/ashier/workspace/trueproperty/api/app/routes/BuildingRoutes.js",
+		"/Users/ashier/workspace/trueproperty/api/app/routes/CommunityRoutes.js",
+		"/Users/ashier/workspace/trueproperty/api/app/routes/EmailSubmissionRoutes.js",
+		"/Users/ashier/workspace/trueproperty/api/app/routes/PromoRoutes.js",
+		"/Users/ashier/workspace/trueproperty/api/app/routes/PropertyRoutes.js",
+		"/Users/ashier/workspace/trueproperty/api/app/config/routes.js",
+		"/Users/ashier/workspace/trueproperty/api/app/controllers/IndexController.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/services/CommunityExpertService.js",
+		"/Users/ashier/workspace/trueproperty/api/app/controllers/main/CommunityExpertsController.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/controllers/_init_.js",
+		"/Users/ashier/workspace/trueproperty/api/app/routes/CommunityExpertsRoutes.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/services/_init_.js",
+		"/Users/ashier/workspace/trueproperty/api/app/routes/CommunityExperts.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/services/CommunityExpertCtrl.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/directives/ExpertLifestyle.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/directives/LifestyleTab.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/_modules/tp-site.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/community/services/CommunityService.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/controllers/_init_.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/building.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/login.html",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/property.html",
+		"/Users/ashier/workspace/trueproperty/website/channel.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/controllers/ExpertsCtrl.js",
+		"/Users/ashier/workspace/trueproperty/website/js/app/common/services/_init_.js",
+		"/usr/local/nginx/conf/nginx.conf",
+		"/Users/ashier/workspace/trueproperty/api/app/controllers/promo/PromoController.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/building-templates/building-highlights.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"loc",
+			"writeInterval",
+			".ph",
+			"FB.getLoginStatus",
+			"$scope.fbLoggedIn",
+			"lifes",
+			"ng-gag",
+			"gag=\"",
+			"tp-gag=\"",
+			"gag=\"community-header",
+			"getId",
+			"tp-gag=\"community",
+			"onProperty",
+			"navi",
+			"if (err) { db.close();",
+			"$window",
+			"129",
+			".community",
+			"community",
+			"if (err) {db.close();",
+			"addLi",
+			"community",
+			"footer",
+			"/api/experts",
+			"if (err) {\n            db.close();\n            return done(err);\n          };",
+			"if (!user){\n              db.close();\n              return done(null, false);\n            }",
+			"if (err) {\n              db.close();\n              return done(err);\n            };",
+			"if (err) {\n        db.close();\n        return done(err);\n      };",
+			"if (!user){\n          db.close();\n          return done(null, false);\n        }",
+			"if (err) {\n          db.close();\n          return done(err);\n        };",
+			"if (!user) return done(null, false, {",
+			"if (!user) return done(null, false);",
+			"if (err) return done(err);",
+			"console",
+			"528",
+			"console",
+			"col-sm-3",
+			"hidden-md",
+			"new-com",
+			"shadow",
+			"share",
+			"border-top",
+			"last",
+			"share-btn",
+			"data-tp-meta=\"og:image\" ",
+			"nav",
+			"home",
+			".property .contact-form .btn",
+			"learn",
+			"button",
+			"carousel",
+			"button",
+			"item-bu",
+			" ng-",
+			"ng-",
+			"primaryP",
+			"h1",
+			"ont-weight: 100;",
+			"'Proxima Nova', sans-serif;",
+			"Museo Sans",
+			"Open",
+			"console.warning",
+			"__BUCKET_NAME__",
+			"removeFromList",
+			"upload-photo",
+			"flashMessage",
+			"loggedWarning",
+			"carousel",
+			"works-",
+			"carousel",
+			"glyphicon",
+			"carousel",
+			"carouse",
+			"md-4",
+			">\n",
+			"lifesty",
+			"130",
+			"120",
+			"scroll-to=",
+			"prevent-default=\"\" ",
+			"nav",
+			"lifest",
+			"javscript:void(0);",
+			"community-properties",
+			"properties",
+			"javscript:void(0)",
+			".nav-tabs>",
+			">\n",
+			"section",
+			"h1",
+			"h5",
+			"#888d92",
+			":before",
+			"dic",
+			"section",
+			"jum",
+			"font-weight",
+			"jumbotron",
+			"font-we",
+			"font-w",
+			"'Open Sans Condensed', sans-serif;",
+			"clip",
+			"clip\nclip",
+			"provider",
+			"passport.authenticate('bearer', {\n      session: false\n    }),",
+			"loggedWarning",
+			"fb",
+			"insightForm.",
+			"file",
+			"salt",
+			"@",
+			"commun",
+			"height=\"150\"",
+			"<img",
+			"divide",
+			"consol",
+			"face",
+			"gear",
+			" ng-",
+			"\"></",
+			"/img",
+			"green",
+			"input",
+			"ng-model",
+			"console",
+			"save",
+			"jumbo",
+			"community-location"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tasks/angular_seo_snapshot.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3615,
+								3615
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1441.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "angular-seo-snapshot.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"comm",
+				"website/less/community.less"
+			],
+			[
+				"acc",
+				"website/partials/account/account.html"
+			],
+			[
+				"g",
+				"api/node_modules/moment/lang/gl.js"
+			],
+			[
+				"communi",
+				"website/js/app/community/controllers/CommunityCtrl.js"
+			],
+			[
+				"communitic",
+				"website/js/app/community/controllers/CommunityCtrl.js"
+			],
+			[
+				"face",
+				"website/js/app/common/services/FacebookService.js"
+			],
+			[
+				"nav",
+				"website/js/app/common/controllers/NavBarCtrl.js"
+			],
+			[
+				"communitict",
+				"website/js/app/community/controllers/CommunityCtrl.js"
+			],
+			[
+				"homect",
+				"website/js/app/home/controllers/HomeCtrl.js"
+			],
+			[
+				"glo",
+				"website/less/global.less"
+			],
+			[
+				"glob",
+				"website/less/global.less"
+			],
+			[
+				"communityct",
+				"website/js/app/community/controllers/CommunityCtrl.js"
+			],
+			[
+				"communitictr",
+				"website/js/app/community/controllers/CommunityCtrl.js"
+			],
+			[
+				"inde",
+				"website/index.html"
+			],
+			[
+				"footer",
+				"website/partials/common/footer.html"
+			],
+			[
+				"foot",
+				"website/js/app/common/services/FooterService.js"
+			],
+			[
+				"home",
+				"website/less/home.less"
+			],
+			[
+				"index",
+				"website/index.html"
+			],
+			[
+				"less",
+				"website/less/lesshat.less"
+			],
+			[
+				"var",
+				"website/less/variables.less"
+			],
+			[
+				"ind",
+				"website/index.html"
+			],
+			[
+				"font",
+				"website/less/fonts.less"
+			],
+			[
+				"prop",
+				"website/less/property.less"
+			],
+			[
+				"pro",
+				"website/less/property.less"
+			],
+			[
+				"hom",
+				"website/less/home.less"
+			],
+			[
+				"gl",
+				"website/less/global.less"
+			],
+			[
+				"accou",
+				"website/js/app/account/controllers/AccountCtrl.js"
+			],
+			[
+				"communit",
+				"website/less/community.less"
+			],
+			[
+				"commun",
+				"website/js/app/community/controllers/CommunityCtrl.js"
+			],
+			[
+				"pr",
+				"website/less/property.less"
+			],
+			[
+				"h",
+				"website/less/home.less"
+			],
+			[
+				"footerc",
+				"website/js/app/common/services/FooterService.js"
+			],
+			[
+				"foo",
+				"website/partials/common/footer.html"
+			],
+			[
+				"proper",
+				"website/less/property.less"
+			],
+			[
+				"com",
+				"website/less/community.less"
+			],
+			[
+				"globa",
+				"website/less/global.less"
+			],
+			[
+				"ho",
+				"website/less/home.less"
+			],
+			[
+				"home.",
+				"website/less/home.less"
+			],
+			[
+				"featuredpropertyctrl",
+				"website/js/site/controllers/widgets/FeaturedPropertyCtrl.js"
+			],
+			[
+				"jum",
+				"dist/partials/site/templates/jumbotron.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

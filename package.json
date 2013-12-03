@@ -1,0 +1,48 @@
+{
+  "name": "ajax-seo-snapshot",
+  "description": "Generates snapshots of an ajax based project based on its sitemap.xml",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ashier/ajax-seo-snapshot",
+  "author": {
+    "name": "Ashier de Leon",
+    "email": "ashier@gmail.com",
+    "url": "http://ashier.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ashier/ajax-seo-snapshot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashier/ajax-seo-snapshot/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ashier/ajax-seo-snapshot/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2",
+    "phantomjs": "~1.9.2-4",
+    "xml2json": "~0.3.2",
+    "phantom": "~0.5.4",
+    "node-phantom": "~0.2.5",
+    "chalk": "~0.3.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
