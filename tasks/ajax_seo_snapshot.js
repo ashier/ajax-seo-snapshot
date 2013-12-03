@@ -27,6 +27,7 @@ module.exports = function(grunt) {
   var info = chalk.bold.blue;
   var success = chalk.bold.green;
   var warning = chalk.bold.yellow;
+  var gray = chalk.bold.gray;
 
   grunt.registerTask('ajax-seo-snapshot', 'Generates snapshots of an ajax based project based on its sitemap.xml', function() {
     var done = this.async();
@@ -98,8 +99,8 @@ module.exports = function(grunt) {
                 if (!err) {
                   var path = options.outputDir + '/' + filename;
                   writeFile(path, result, function(err) {
-                    if(!err) {
-                      console.log('[INFO]', warning('#' + currentPage), success('File Created', info(path)));
+                    if (!err) {
+                      grunt.log.write(chalk.green(' ✔ \n'));
                       cb(null);
                     } else {
                       cb('Failed to write page');
@@ -124,23 +125,21 @@ module.exports = function(grunt) {
       } else {
         filename += '.html';
       }
-      console.log('[INFO]', 'Processing page ', info(host), info(filename));
+      grunt.log.write('\n' + warning(currentPage) + ' ' + info(host) + success(' → ') + gray(filename));
       return createPage(ph, host, filename, function(err) {
         if (err) {
           // retry if error is encountered...
-          console.log(error('[ERROR]'), 'Error encountered ', error(err));
+          grunt.log.error(error('\nError encountered ') + error(err));
           processPageInterval = setInterval(function() {
             clearInterval(processPageInterval);
             if (!statusFlag) {
               processPageRetries += 1;
-              console.log('[WARNING]', 'process page retry ' + warning('#' + processPageRetries));
               if (processPageRetries <= maxRetries) {
                 var loc = data.urlset.url[currentPage].loc;
                 processPage(ph, loc, url.parse(loc).path);
               } else {
-                grunt.log.error(error('[ERROR]') + ' Phantom failed to create the page ' + info(host));
-                done();
                 ph.exit();
+                createPhantom();
               }
             }
           }, timeInterval);
@@ -152,10 +151,9 @@ module.exports = function(grunt) {
             processPage(ph, loc, url.parse(loc).path);
           } else {
             // done
-            done();
             ph.exit();
             cp.exec('pkill phantomjs');
-            console.log('[INFO]', success('Completed.'));
+            grunt.log.writeln(success('✔ ') + success('Completed.'));
           }
         }
       });
@@ -163,25 +161,13 @@ module.exports = function(grunt) {
 
     var createPhantom = function() {
       phantom.create(function(err, ph) {
-        createPhantomInterval = setInterval(function() {
-          clearInterval(createPhantomInterval);
-          if (!isEvaluationRunning) {
-            console.log('[WARNING]', 'Create phantom retry ' + warning('#' + createPhantomRetries));
-            if (createPhantomRetries <= maxRetries) {
-              createPhantomRetries += 1;
-              createPhantom();
-            } else {
-              grunt.log.error(error('[ERROR]') + ' Phantom failed to create');
-            }
-          }
-        }, timeInterval);
-
         var loc = data.urlset.url[currentPage].loc;
         return processPage(ph, loc, url.parse(loc).path);
       });
     }
 
     // create phantom
+    grunt.log.writeln(info('Ajax SEO Initialized'));
     createPhantom();
 
   });

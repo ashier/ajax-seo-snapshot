@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"wri",
-				"writeFile"
-			],
-			[
 				"rec",
 				"reconnectAttempts"
 			],
@@ -216,10 +212,10 @@
 	"buffers":
 	[
 		{
-			"file": "tasks/angular_seo_snapshot.js",
+			"file": "tasks/ajax_seo_snapshot.js",
 			"settings":
 			{
-				"buffer_size": 5929,
+				"buffer_size": 5248,
 				"line_ending": "Unix"
 			}
 		}
@@ -227,9 +223,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 357.0,
+		"height": 93.0,
 		"selected_items":
 		[
+			[
+				"ngin",
+				"Set Syntax: nginx"
+			],
+			[
+				"ng",
+				"Set Syntax: nginx"
+			],
 			[
 				"ngn",
 				"Set Syntax: nginx"
@@ -240,10 +244,6 @@
 			],
 			[
 				"nginx",
-				"Set Syntax: nginx"
-			],
-			[
-				"ngin",
 				"Set Syntax: nginx"
 			],
 			[
@@ -344,18 +344,22 @@
 	},
 	"file_history":
 	[
-		"/Users/ashier/workspace/angular-seo-snapshot/.gitignore",
+		"/Users/ashier/workspace/ajax-seo-snapshot/ajax-seo-snapshot.sublime-project",
+		"/Users/ashier/workspace/ajax-seo-snapshot/ajax-seo-snapshot.sublime-workspace",
+		"/Users/ashier/workspace/trueproperty/website/gruntfile.js",
+		"/Users/ashier/workspace/trueproperty/website/index.html",
+		"/Users/ashier/workspace/trueproperty/website/js/app/_routes.js",
+		"/Users/ashier/workspace/trueproperty/api/trueproperty.local",
+		"/Users/ashier/workspace/trueproperty/website/js/app/_modules/pushstate-mode.js",
+		"/Users/ashier/workspace/trueproperty/api/app/controllers/IndexController.js",
+		"/Users/ashier/workspace/trueproperty/website/partials/site/building.html",
 		"/Users/ashier/workspace/trueproperty/website/sitemap.xml",
 		"/Users/ashier/workspace/trueproperty/website/.phantomjs-runner.js",
 		"/Users/ashier/workspace/trueproperty/website/ms.sh",
 		"/Users/ashier/workspace/trueproperty/website/snapshots/bgc.html",
 		"/Users/ashier/workspace/trueproperty/website/js/app/community/controllers/CommunityCtrl.js",
-		"/Users/ashier/workspace/trueproperty/api/trueproperty.local",
 		"/Users/ashier/workspace/trueproperty/website/snapshots/home.html",
-		"/Users/ashier/workspace/trueproperty/website/js/app/_modules/pushstate-mode.js",
 		"/Users/ashier/workspace/trueproperty/api/app/config/db.js",
-		"/Users/ashier/workspace/trueproperty/website/gruntfile.js",
-		"/Users/ashier/workspace/trueproperty/website/index.html",
 		"/Users/ashier/workspace/trueproperty/website/partials/common/navbar.html",
 		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/Navbar.js",
 		"/Users/ashier/workspace/trueproperty/website/js/app/home/controllers/HomeCtrl.js",
@@ -439,7 +443,6 @@
 		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/BackImage.js",
 		"/Users/ashier/workspace/trueproperty/website/js/app/common/directives/BackgroundImage.js",
 		"/Users/ashier/workspace/trueproperty/website/partials/site/home-templates/jumbotron.html",
-		"/Users/ashier/workspace/trueproperty/website/js/app/_routes.js",
 		"/Users/ashier/workspace/trueproperty/website/js/app/home/controllers/FeaturedPropertyCtrl.js",
 		"/Users/ashier/workspace/trueproperty/website/partials/site/home-templates/featured-communities.html",
 		"/Users/ashier/workspace/trueproperty/website/partials/site/building-templates/building-description.html",
@@ -450,7 +453,6 @@
 		"/Users/ashier/workspace/trueproperty/api/app/routes/PromoRoutes.js",
 		"/Users/ashier/workspace/trueproperty/api/app/routes/PropertyRoutes.js",
 		"/Users/ashier/workspace/trueproperty/api/app/config/routes.js",
-		"/Users/ashier/workspace/trueproperty/api/app/controllers/IndexController.js",
 		"/Users/ashier/workspace/trueproperty/website/js/app/community/services/CommunityExpertService.js",
 		"/Users/ashier/workspace/trueproperty/api/app/controllers/main/CommunityExpertsController.js",
 		"/Users/ashier/workspace/trueproperty/website/js/app/community/controllers/_init_.js",
@@ -463,15 +465,13 @@
 		"/Users/ashier/workspace/trueproperty/website/js/app/_modules/tp-site.js",
 		"/Users/ashier/workspace/trueproperty/website/js/app/community/services/CommunityService.js",
 		"/Users/ashier/workspace/trueproperty/website/js/app/common/controllers/_init_.js",
-		"/Users/ashier/workspace/trueproperty/website/partials/site/building.html",
 		"/Users/ashier/workspace/trueproperty/website/partials/site/login.html",
 		"/Users/ashier/workspace/trueproperty/website/partials/site/property.html",
 		"/Users/ashier/workspace/trueproperty/website/channel.html",
 		"/Users/ashier/workspace/trueproperty/website/js/app/common/controllers/ExpertsCtrl.js",
 		"/Users/ashier/workspace/trueproperty/website/js/app/common/services/_init_.js",
 		"/usr/local/nginx/conf/nginx.conf",
-		"/Users/ashier/workspace/trueproperty/api/app/controllers/promo/PromoController.js",
-		"/Users/ashier/workspace/trueproperty/website/partials/site/building-templates/building-highlights.html"
+		"/Users/ashier/workspace/trueproperty/api/app/controllers/promo/PromoController.js"
 	],
 	"find":
 	{
@@ -490,8 +490,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"loc",
-			"writeInterval",
+			"done();",
+			"check",
+			"log",
+			"console",
+			"angular",
+			"createPa",
+			"done();",
+			"log",
+			"console.log",
+			"angular",
 			".ph",
 			"FB.getLoginStatus",
 			"$scope.fbLoggedIn",
@@ -609,15 +617,7 @@
 			"face",
 			"gear",
 			" ng-",
-			"\"></",
-			"/img",
-			"green",
-			"input",
-			"ng-model",
-			"console",
-			"save",
-			"jumbo",
-			"community-location"
+			"\"></"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -640,19 +640,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "tasks/angular_seo_snapshot.js",
+					"file": "tasks/ajax_seo_snapshot.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5929,
+						"buffer_size": 5248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3615,
-								3615
+								3746,
+								3746
 							]
 						],
 						"settings":
@@ -663,7 +663,7 @@
 							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1441.0,
+						"translation.y": 1022.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -702,7 +702,7 @@
 		]
 	},
 	"menu_visible": true,
-	"project": "angular-seo-snapshot.sublime-project",
+	"project": "ajax-seo.sublime-project",
 	"replace":
 	{
 		"height": 40.0
